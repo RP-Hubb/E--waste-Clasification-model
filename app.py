@@ -82,4 +82,5 @@ if uploaded_file is not None:
     
     with st.spinner('Generating expert advice...'):
         advice = get_llm_advice(label)
+
         st.info(advice)
